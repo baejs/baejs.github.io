@@ -26,3 +26,13 @@ body {
 .col {
     padding: 0 0 0 0;
 }
+
+a.ic:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.ic:visited {
+    text-decoration: none;
+    color: white;
+}
