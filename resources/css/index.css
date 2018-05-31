@@ -4,25 +4,25 @@ html {
   
 @media (min-width: 576px) {
     html {
-        font-size: 0.8rem;
+        font-size: 0.4rem;
     }
 }
 
 @media (min-width: 768px) {
     html {
-        font-size: 1.2rem;
+        font-size: 0.6rem;
     }
 }
 
 @media (min-width:992px) {
     html {
-        font-size: 1.4rem;
+        font-size: 0.8rem;
     }
 }
 
 @media (min-width:1200px) {
     html {
-        font-size: 1.6rem;
+        font-size: 1.0rem;
     }
 }
 
