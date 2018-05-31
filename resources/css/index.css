@@ -1,7 +1,21 @@
 html {
     font-size: 1rem;
   }
-  
+
+.col {
+    padding: 0 0 0 0;
+}
+
+a.ic:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.ic:visited {
+    text-decoration: none;
+    color: white;
+}
+
 @media (min-width: 576px) {
     html {
         font-size: 0.4rem;
@@ -24,19 +38,4 @@ html {
     html {
         font-size: 1.0rem;
     }
-}
-
-
-.col {
-    padding: 0 0 0 0;
-}
-
-a.ic:link {
-    text-decoration: none;
-    color: white;
-}
-
-a.ic:visited {
-    text-decoration: none;
-    color: white;
 }
