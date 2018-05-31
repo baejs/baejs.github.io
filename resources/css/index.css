@@ -1,28 +1,32 @@
 html {
     font-size: 1rem;
+  }
+  
+@media (min-width: 576px) {
+    html {
+        font-size: 0.8rem;
+    }
 }
 
-@include media-breakpoint-up(sm) {
-    div {
+@media (min-width: 768px) {
+    html {
         font-size: 1.2rem;
     }
 }
-    
-@include media-breakpoint-up(md) {
-    div {
-        font-size:1.4rem;
+
+@media (min-width:992px) {
+    html {
+        font-size: 1.4rem;
     }
 }
 
-@include media-breakpoint-up(lg) {
-    div {
+@media (min-width:1200px) {
+    html {
         font-size: 1.6rem;
     }
 }
 
-body {
-    
-}
+
 .col {
     padding: 0 0 0 0;
 }
