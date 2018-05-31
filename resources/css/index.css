@@ -6,10 +6,10 @@
 
 .grid-item {
     padding: 10px 10px 10px 10px;
-    
 }
+
 .no-grid {
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
 }
 
 
@@ -24,8 +24,16 @@ a.ic:visited {
 }
 
 /* for reviews */
-.attachment {
-    max-width: 800px;
+.post-m {
+    margin: 5px 5px 5px 5px;
+}
+
+.width-max {
+    max-width:400px;
+}
+
+.checked {
+    color:orange;
 }
 
 @media (max-width: 575px) {
