@@ -4,9 +4,11 @@
     z-index:1071;
 }
 
-.col {
-    padding: 0 0 0 0;
+.grid-item {
+    padding: 10px 10px 10px 10px;
+    
 }
+
 
 a.ic:link {
     text-decoration: none;
@@ -16,6 +18,11 @@ a.ic:link {
 a.ic:visited {
     text-decoration: none;
     color: white;
+}
+
+/* for reviews */
+.attachment {
+    max-width: 800px;
 }
 
 @media (max-width: 575px) {
