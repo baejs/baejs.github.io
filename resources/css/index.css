@@ -8,6 +8,9 @@
     padding: 10px 10px 10px 10px;
     
 }
+.no-grid {
+    padding: 0 0 0 0;
+}
 
 
 a.ic:link {
